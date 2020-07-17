@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini-project</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <img id="logo" src="favicon.png" alt="NF">
+        <div class="searchbox">
+            <input type="search" id="search" placeholder="Search hotels">
+            <i class="fa fa-search searchlogo" aria-hidden="true"></i>
+        </div>
+        <i class="fa fa-bookmark bklogo" aria-hidden="true"></i>
+        <i class="fa fa-comments cmlogo" aria-hidden="true"></i>
+        <img id="userImg" src="user.jpg" alt="NF">
+        <h3 id="userName">James</h3>
+        <div class="not7">7</div>
+        <div class="not13">13</div>
+    </div>
+    <div class="container">
+        <div class="sideNav">
+            
+            <ul id="navul">
+                <li class="navli" id="num1">HOTEL</li>
+                <li class="navli" id="num2"><div class="hoverEffect"></div>FLIGHT</li>
+                <li class="navli" id="num3"><div class="hoverEffect"></div>CAR RENTAL</li>
+                <li class="navli" id="num4"><div class="hoverEffect"></div>TOURS</li>
+            </ul>
+        </div>
+        <div class="content">
+            <div id="hotelImages">
+                <img src="hotel-1.jpg" alt="NF" class="hotelPhotos" id="img1">
+                <img src="hotel-2.jpg" alt="NF" class="hotelPhotos" id="img2">
+                <img src="hotel-3.jpg" alt="NF" class="hotelPhotos" id="img3">
+            </div>
+            <div id="hotelDetails">
+                <h1 id="hotelName">HOTEL LAS PALMAS</h1>
+                <i class="fa fa-star starlogo" aria-hidden="true"></i>
+                <i class="fa fa-star starlogo" aria-hidden="true"></i>
+                <i class="fa fa-star starlogo" aria-hidden="true"></i>
+                <i class="fa fa-star starlogo" aria-hidden="true"></i>
+                <i class="fa fa-star starlogo" aria-hidden="true"></i>
+                <i class="fa fa-map-marker loclogo" aria-hidden="true">Albuferia, Portugal</i>
+                <div id="rating">
+                    <h3>8.6</h3>
+                    <p>429 votes</p>
+                </div>
+            </div>
+            <div id="reviews">
+                <div class="recommend">
+                    <div class="upperBody">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas iusto officia cumque veniam
+                        necessitatibus dignissimos? <br> <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, minus?
+                    </div>
+                    <div class="middleBody">
+                        <ul id="left">
+                            <li id="reviewList" >Close to the Beach</li>
+                            <li id="reviewList">Free Airport Shuttle</li>
+                            <li id="reviewList">AC and Heater</li>
+                            <hr style="border: 1px solid gray;">
+                        </ul>
+                        <ul id="right">
+                            <li id="reviewList">Breakfast included</li>
+                            <li id="reviewList">Free Wifi</li>
+                            <li id="reviewList">Pets allowed</li>
+                            <hr style="border: 1px solid gray;">
+                        </ul>
+                    </div>
+                    
+                    <div class="lowerBody">
+                        <p>Lucy and 3 other friends <br> recommended this hotel.</p>
+                        <img src="user-3.jpg" alt="NF" id="user1Img" class="user-3">
+                        <img src="user-4.jpg" alt="NF" id="user1Img" class="user-4">
+                        <img src="user-5.jpg" alt="NF" id="user1Img" class="user-5">
+                        <img src="user-6.jpg" alt="NF" id="user1Img" class="user-6">
+                    </div>
+                </div>
+                <div class="userReview">
+                    <div id="user1">
+                        <div class="advice">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, odit?</p>
+                        </div>
+                        <div class="userInfo">
+                            <img id="user1Img" src="user-1.jpg" alt="NF">
+                            <div class="nameDate">
+                                <h3>Nick Smith</h3>
+                                <p>Feb 23rd, 2017</p>
+                            </div>
+                            <div class="userRating">7.8</div>
+                        </div>
+                    </div>
+                    <div id="user2">
+                        <div class="advice">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum, odit?</p>
+                        </div>
+                        <div class="userInfo">
+                            <img id="user1Img" src="user-2.jpg" alt="NF">
+                            <div class="nameDate">
+                                <h3>Mary Thomas</h3>
+                                <p>Sep 13th, 2016</p>
+                            </div>
+                            <div class="userRating">9.3</div>
+                        </div>
+                    </div>
+                    <a href="#" style="color: #ff006e; position: relative;
+                    left: 130px; top:-10px; cursor: pointer;">Show All &rarr;</a>
+                </div>
+            </div>
+            <div id="footer">
+                <p>GOOD NEWS! WE HAVE 4 FREE ROOMS FOR YOUR SELECTED DATES.</p>
+                <div class="buttonAnimation">
+                    <button id="bt1">BOOK NOW </button>
+                    <button id="bt2">Only 4 rooms left</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
